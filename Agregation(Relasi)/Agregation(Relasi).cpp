@@ -1,5 +1,5 @@
 #include <iostream>
-#include <string>
+#include <vector>
 using namespace std;
 
 #include "anak.h"
@@ -14,4 +14,16 @@ int main() {
 
 	varIbu->tambahAnak(varAnak1);
 	varIbu->tambahAnak(varAnak2);
+	varIbu2->tambahAnak(varAnak3);
+	varIbu2->tambahAnak(varAnak3);
+
+	varIbu->cetakAnak();
+	varIbu2->cetakAnak();
+
+	delete varIbu;
+	delete varIbu2;
+
+	return 0;
+
+
 }
